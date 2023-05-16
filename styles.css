@@ -52,3 +52,10 @@ fieldset{
 legend{
     padding: 0 8px;
 }
+
+#password-length{
+    /* この部分だけ範囲を指定してしまう＝他の要素のスタイルに影響しない */
+    width: 24px;
+    display: inline-block;
+    text-align: center;
+}
